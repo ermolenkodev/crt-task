@@ -204,7 +204,7 @@ def create_submission(path_to_files):
 if __name__ == '__main__':
     best_loss = 10000
     global_step = 0
-    # train(path_to_files='.data')
+    train(path_to_files='.data')
     print("Training finished.")
     create_submission(path_to_files='.data')
     print("Submission created.")
